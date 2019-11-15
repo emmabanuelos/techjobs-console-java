@@ -21,7 +21,7 @@ public class TechJobs {
         columnChoices.put("position type", "Position Type");
         columnChoices.put("all", "All");
 
-        // Top-level menu options
+        // Top-level menu options --Emma's note the data that is used to generate the first menu we see when running the program
         HashMap<String, String> actionChoices = new HashMap<>();
         actionChoices.put("search", "Search");
         actionChoices.put("list", "List");
@@ -35,7 +35,7 @@ public class TechJobs {
 
             if (actionChoice.equals("list")) {
 
-                String columnChoice = getUserSelection("List", columnChoices);
+                String columnChoice = getUserSelection("List", columnChoices); /*correspond to columns in the jobs data set */
 
                 if (columnChoice.equals("all")) {
                     printJobs(JobData.findAll());
