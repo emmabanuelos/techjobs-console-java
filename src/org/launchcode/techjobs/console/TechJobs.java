@@ -111,7 +111,20 @@ public class TechJobs {
 
     // Print a list of jobs
     private static void printJobs(ArrayList<HashMap<String, String>> someJobs) {
+        ArrayList <String> name = new ArrayList<>();
+        ArrayList <String> employer = new ArrayList<>();
+        ArrayList <String> location = new ArrayList<>();
+        ArrayList <String> positionType = new ArrayList<>();
+        ArrayList <String> coreCompetency = new ArrayList<>();
 
+//        for (int i = 0; i <= printJobs.length; i ++){
+//            System.out.println(i) ;
+//        }
+        for (String choiceKeys : name){
+            for (int i = 0; i <= name.size(); i ++){
+                System.out.println(i);
+            }
+        }
         System.out.println("printJobs is not implemented yet");
     }
 }
