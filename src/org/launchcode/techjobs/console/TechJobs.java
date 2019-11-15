@@ -7,6 +7,7 @@ import java.util.Scanner;
 /**
  * Created by LaunchCode
  */
+//finally got the base code to run wanted to make this note so i can push this onto git hub.
 public class TechJobs {
 
     private static Scanner in = new Scanner(System.in);
